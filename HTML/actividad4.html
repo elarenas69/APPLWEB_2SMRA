@@ -1,0 +1,87 @@
+<h1>Registro de usuario</h1>
+
+<form action="#" method="post">
+
+    <fieldset>
+        <legend>Informacion Personal</legend>
+        <label for="nombre">Nombre:  </label>
+        <input id="nombre" type="text" required> <br><br>
+        <label for="Apellidos">Apellidos:  </label>
+        <input type="text" id="Apellidos" required> <br><br>
+        <label for="Fecha">Fecha:  </label>
+        <input type="date" id="Fecha" required> <br><br>
+        <label for="sexo">Sexo: </label> <br>
+        <input type="radio" id="Masculino" name="opcion" value="Masculino" required>
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Femenino" name="opcion" value="Femenino" required>
+        <label for="Femenino">Femenino</label><br>
+        <input type="radio" id="Otro" name="opcion" value="Otro" required>
+        <label for="Otro">Otro</label><br><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Informacion de contacto</legend>
+        <label for="correo">Correo Electronico</label>
+        <input type="email" id="email" required ><br><br>
+        <label for="telefono">Número de telefono</label>
+        <input type="tel" id="telefono"  pattern="[0-9]{9}" required><br><br>
+        <label for="Direccion">Direccion</label> <br>
+        <textarea name="Direccion" id="Direccion" cols="40" rows="4"></textarea><br>
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Informacion de cuenta</legend>
+        <label for="Nombre de usuario">Nombre de usuario</label>
+        <input type="text"  pattern="[A-Za-z0-9]+" id="Nombre de usuario" required><br><br>
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" name="Contraseña" required><br><br>
+        <label for="Contraseña">Confirmar Contraseña</label>
+        <input type="password" id="Confirmar Contraseña" name="Confirmar Contraseña" required><br><br>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferencias</legend>
+        <label for="Color Favorito">Color Favorito</label>
+        <select name="colorfavorito" id="colorfavorito">
+            <option value="sincontestar"></option>
+            <option value="color1">Rojo</option>
+            <option value="color2">Azul</option>
+            <option value="color3">Amarillo</option>
+            <option value="color4">Verde</option>
+        </select> <br><br>
+
+        <label for="Terminos Y Condiciones">Aceptar Terminos y Condiciones</label>
+        <input type="checkbox" id="Terminos Y Condiciones" required>
+
+    </fieldset>
+
+    <fieldset>
+
+        <br><button type="submit" > Enviar </button><br>
+
+    </fieldset>
+
+        
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+</form>

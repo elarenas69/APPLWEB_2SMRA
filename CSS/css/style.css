@@ -1,0 +1,300 @@
+/* -------------------- General ------------------ */
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+    font-family: "Lexend", sans-serif;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* -------------------- Header ------------------- */
+
+ .cabecera{
+    background-color: #010101;
+    display: flex;
+     /* width: 30; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera__logo{
+
+    width: 20%;
+}
+
+.cabecera__nav__lista{
+
+    display: flex;
+}
+
+.cabecera__nav__lista__enlace{
+
+    margin-right: 1.75rem;
+    color: aliceblue;
+    font-size: 1rem;    
+} 
+
+.cabecera__nav__lista__enlace:hover{
+
+    color:yellowgreen
+}
+
+
+/* ---------------------- Seccion principal (Main) ---------------------------- */
+
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.principal__titulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.principal__viajes{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; 
+    margin-bottom: 6rem;
+}
+
+.principal__viajes__art{
+    width: 20%;
+    
+}
+
+.principal__viajes__art__img{
+    width: 100%;
+    border-radius: 1rem;  /* Para poner los bordes circulares */
+    
+}
+
+.principal__viajes__art__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__viajes__art__div__texto{
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 70%;
+}
+
+.principal__viajes__art__div__enlace{
+    background-color: grey;
+    color: aliceblue;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    font-size: 0.9rem;
+    margin-left: 0.60rem;
+    text-align: center;
+}
+
+.principal__viajes__art__div__enlace:hover{
+    background-color: black;
+}
+
+.principal__contacto{
+    width: 100%;
+    background-color: black;
+
+}
+.principal__contacto__formulario__contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 0rem;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}    
+
+
+.principal__contacto__formulario__contenedor__titulo{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    
+}
+
+.principal__contacto__formulario__contenedor__div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__contacto__formulario__contenedor__div__email{
+    margin-bottom: 0.87rem;
+    padding: 0.75rem;
+    border: 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.principal__contacto__formulario__contenedor__div__boton{
+    background-color: grey;
+    color: aliceblue;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0;
+}
+
+.principal__contacto__formulario__contenedor__div__boton:hover{
+    background-color: lightpink;
+    color: #010101;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style_act1_a.css */
+/* .cabecera {
+    width: 20%;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.cabecera__logo {
+    width: 100%; 
+    height: auto;
+}
+
+.cabecera__nav__lista {
+    font-size: 1rem; 
+    color: #333; 
+    margin-top: 0.5rem; 
+} */
+
+
+
+/* style_act1_b.css */
+/* .cabecera {
+    margin: 0;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.cabecera__logo {
+    width: 150px; 
+    height: auto; 
+}
+
+.cabecera__nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+} */
